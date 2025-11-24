@@ -7,17 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1fMjsuN2JcHDTEP3p65GbnNfBcWiPXUc0
 """
 
-"""
-Smart Swachh - Advanced Marketplace (Phase 2) Streamlit Prototype
-Features:
-- Simple registration/login for Citizens and Recyclers (no passwords; email-based simple auth for demo)
-- Citizen: create listing (photo + metadata), view bids, accept bid, rate recycler
-- Recycler: browse listings, place bids, view accepted jobs, mark pickup done
-- Safe DataFrame operations (pd.concat), persistent CSV storage
-- Mock AI suggestions (category & price heuristic)
-- Files stored in 'uploads/', CSVs stored in 'data/' folder
-"""
-
 import streamlit as st
 import pandas as pd
 import os
