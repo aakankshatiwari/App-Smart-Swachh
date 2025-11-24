@@ -106,8 +106,8 @@ if "user" not in st.session_state:
 # --------------------
 # UI Layout
 # --------------------
-st.set_page_config(page_title="Smart Swachh Marketplace (Phase 2)", layout="wide")
-st.title("Smart Swachh — Zero Waste Nykaa (Advanced Marketplace Prototype)")
+st.set_page_config(page_title="Smart Swachh Marketplace", layout="wide")
+st.title("Smart Swachh — Advanced Marketplace Prototype")
 st.markdown("List your waste, get competitive bids from verified recyclers, choose best offer, schedule pickup.")
 
 # --------------------
